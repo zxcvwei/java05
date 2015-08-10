@@ -7,10 +7,10 @@ public class while02 {
 		float v = 20000;
 		float h = 5000000-(float)(5000000*0.78); 
 		while(v<h){
-			v = v+(float)(v*1.002);
+			v = v+(float)(v*0.15);
 			m++;
 		}
-		System.out.println("經過"+m+"小時到達滿水位");
+		System.out.println("經過"+m+"小時到達或超過滿水位");
 		
 	}
 
